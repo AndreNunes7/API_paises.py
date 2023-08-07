@@ -1,6 +1,6 @@
 # API de Países - Python
 
-<h1>Este é um script Python que utiliza a API de países para obter informações sobre países, incluindo contagem total de países, informações de moedas e população.</h1>
+Este é um script Python que utiliza a API de países para obter informações sobre países, incluindo contagem total de países, informações de moedas e população.
 
 ## Pré-requisitos
 
@@ -15,20 +15,25 @@
 
 ```sh
 python API_paises.py <ação> <nome do país>
-Ações Disponíveis
-contagem: Exibe o número total de países no mundo.
-moeda: Exibe as informações das moedas de um país.
-populacao: Exibe a população de um país.
-Exemplos de Uso
-Contagem de países:
-sh
-Copy code
+
+## Ações Disponíveis
+
+- `contagem`: Exibe o número total de países no mundo.
+- `moeda`: Exibe as informações das moedas de um país.
+- `populacao`: Exibe a população de um país.
+
+
+## Exemplos de Uso
+
+1. Contagem de países:
+```sh
 python API_paises.py contagem
-Informações de moedas de um país:
-sh
-Copy code
+
+2. Informações de moedas de um país:
+```sh
 python API_paises.py moeda brazil
-População de um país:
-sh
-Copy code
+
+3. População de um país:
+```sh
 python API_paises.py populacao germany
+
